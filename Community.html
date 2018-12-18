@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+	 
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #171616;
+	  color: white;
+      padding: 25px;
+    }
+     body {
+	   background : linear-gradient(to right,#cec4c4,#2f2d2d);
+	   position: relative;
+	   data-spy="scroll" data-target="#myScrollspy" data-offset="20";
+     }
+	 
+	 @media screen and (max-width: 0px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 0px;
+    }
+  }
+  .nav-pills
+  {
+  align: middle;
+  }
+  .well-lg{
+    margin-top : 5%;
+  }
+  .sections{
+    border : 1px solid grey;
+    border-collapse : true;
+    color : white;
+  }
+  #myScrollspy{
+    background :#cec4c4;
+  }
+  </style>
+</head>
+<body  >
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Community</h1>      
+    <p>Mission, Vission & Values</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">CarWale.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="vehicles.html">Vehicles</a></li>
+        <li><a href="project.html">Project</a></li>
+	    <li class="active"><a href="#">Community</a></li>
+         <li><a href="electrification.html">Electrification</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</nav>
+
+<!---------Coding of community starts here------------------------------------------------>
+<div class="container">
+<div class="well well-lg" style="background-color:#b4bec0"> 
+<h1><b>THE ART OF PERFORMANCE</b></h1>
+<p>&nbsp&nbsp&nbsp Life. It’s not about figures. It’s about feelings. The moments that feed your soul. The occasions that take your breath away. The instances that leave you speechless. These are the moments we live for. 
+
+That’s why our designers and engineers at Jaguar develop a blend of responsive performance that gets your pulse racing, dramatic design that makes you stop and stare and a sense of theatre that stirs your emotions. 
+
+Our cars are a manifestation of our passion.  Performance that cannot be measured, only felt.  That’s why we call it art.</p>
+</div>
+</div>
+<!------------------------------Code-------------------------------------->
+<!------------------------------starts------------------------------------>
+<!------------------------------here-------------------------------------->
+<br>
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-12" id="myScrollspy" >
+      <ul class="nav nav-pills " align="middle" >
+        <li><a href="#section1">Our Business</a></li>
+        <li><a href="#section2">Innovation Lab</a></li>
+        <li><a href="#section3">Sustainability</a></li>
+       <li><a href="#section4">Special Vehicle Operations (SVO)</a></li>
+	   <li><a href="#section5">Featured Articles</a></li>
+	   <li><a href="#section6">Corporate Values</a></li>
+      </ul>
+    </nav>
+    <div class="col-sm-12">
+      <div id="section1" class="sections">    
+        <h1>Our Business</h1>		
+        <p>Since the first car was produced in 1935 we have pushed the boundaries of what is possible. We are focusing in making quality made designs which will be rich in its features.
+		We are a class and only a person having a class can afford us. Thats our status not ego. We are not making it for anyone we are making it for everyone.
+		</p>
+       </div>
+	
+      <div id="section2" class="sections"> 
+        <h1>Innovation Lab</h1>
+        <p> The Innovation Lab brings to life the innovation offered by us. From performance and capability to infotainment and connectivity.
+		Our always practise will be to produce the best and the utmost. People shall be surprised that how can just a car have all this things enclosed in it. We want to expand at that level.</p>
+      </div>        
+      <div id="section3" class="sections">         
+        <h1>Sustainability</h1>
+        <p>We have a long tradition of creating beautiful, fast saloon and sports cars. To maintain this tradition we must ensure we have a sustainable business over the long term.</p>
+      </div>
+      <div id="section4" class="sections">
+		<h1> Special Vehicle Operations (SVO)</h1>
+		<p>SVO takes Jaguar beyond the extraordinary with the ultimate driving experiences - unrivalled power, ride and handling; unsurpassed luxury, choice and personalisation.</p>
+	 </div>
+	 <div id="section5" class="sections">
+	 <h1>Featured Articles</h1>
+	 <p>Get closer to Jaguar as we test drive the latest models, meet the experts behind the innovations, and explore the design and technology that goes into creating the Jaguar Brand.</p>
+	 </div>
+	 <div id="section6" class="sections">   
+	 <h1>Corporate Values</h1>
+	 <p>To make sure we always deliver on our promises, everyone at Jaguar lives by these simple but effective values.Find out how safety, quality, dependability and reliability are all built into every Jaguar.</p>
+	 </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<!------------------------------Footer------------------------------------>
+<!------------------------------starts------------------------------------>
+<!------------------------------here-------------------------------------->
+<footer class="container-fluid text-center" >
+  <p>© Copyrights Project of Pratik & Kaustub</p>
+</footer>
+
+</body>
+</html>
